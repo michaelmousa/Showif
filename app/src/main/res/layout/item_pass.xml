@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp">
+    <LinearLayout
+
+            android:layout_width="391dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="40dp">
+        <ImageView
+                android:id="@+id/ImageviewUrl"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Imagetheavatar"
+                android:src="@mipmap/ic_launcher"/>
+
+
+        <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:text="Location"
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="121dp"
+                tools:layout_editor_absoluteX="185dp"
+                android:id="@+id/tvLocation"/>
+        <TextView
+                android:text="Number Of Commits "
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="121dp"
+                tools:layout_editor_absoluteX="185dp"
+                android:id="@+id/tvNumber"/>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
